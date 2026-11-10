@@ -1,4 +1,4 @@
-# 🚀 Cold Start: Autonomous Life Graph & Loop Extraction System
+# Cold Start: Autonomous Life Graph & Loop Extraction System
 
 [![Competition](https://img.shields.io/badge/Challenge-Xpert%20Winter%20Internship%202026-orange.svg)](https://goals.xpert.chat/w/intern#build)
 [![Status](https://img.shields.io/badge/Status-Submission%20Ready-brightgreen.svg)]()
@@ -11,7 +11,7 @@
 
 ---
 
-## 📊 Benchmark Results (Dev Set Evaluation)
+## Benchmark Results (Dev Set Evaluation)
 
 Evaluated against the official ground-truth test suite (`check.py` on Arjun's 2-week WhatsApp dataset: 138 chats, 4,502 messages, ~300 contacts):
 
@@ -73,7 +73,7 @@ The pipeline balances zero-cost deterministic graph propagation with targeted, b
 
 ---
 
-## 🔑 Core Design Principles & Strategic Safeguards
+## Core Design Principles & Strategic Safeguards
 
 ### 1. Asymmetric Penalty Minimization
 * **False "Done" Guardrail:** In `check.py`, falsely labeling an open task as `done` deducts **-1 point**, whereas leaving a done task as `open` incurs no penalty. Our resolver requires explicit confirmation messages (*"paid"*, *"done"*, *"ordered"*, *"transferred"*) before transitioning away from `open`.
@@ -97,7 +97,7 @@ To prevent data contamination, the pipeline was benchmarked using an anonymizati
 
 ---
 
-## 📂 Repository Layout
+## Repository Layout
 
 ```
 cold-start/
@@ -121,7 +121,7 @@ cold-start/
 
 ---
 
-## 🛠️ Getting Started & Usage
+## Getting Started & Usage
 
 ### Prerequisites
 * Python 3.9 or higher (standard library only; no external package dependencies).
@@ -142,7 +142,7 @@ python3 check.py data/dev out.json
 
 ---
 
-## ⚙️ Environment Configuration
+## Environment Configuration
 
 When run by the contest evaluation harness, the pipeline reads standard OpenAI-compatible environment variables:
 
@@ -156,7 +156,7 @@ When run by the contest evaluation harness, the pipeline reads standard OpenAI-c
 
 ---
 
-## 📄 Output Schema Conformance
+## Output Schema Conformance
 
 `output.json` strictly adheres to `schema.json`:
 * `people`: Array of people objects with `id`, `circle` (one of 12 allowed enums), `links` (`runs` / `supports`), and `looks_after`.
@@ -167,7 +167,7 @@ When run by the contest evaluation harness, the pipeline reads standard OpenAI-c
 
 ---
 
-## 👨‍💻 Author & Submission Details
+## Author & Submission Details
 * **Applicant:** Divyanshu Jaiswal
 * **Project:** Cold Start Challenge — Xpert Winter Internship 2026
 * **Repository:** [https://github.com/DivyanshuJaiswal411/cold-start](https://github.com/DivyanshuJaiswal411/cold-start)
