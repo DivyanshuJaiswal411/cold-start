@@ -1,7 +1,6 @@
 # Cold Start: Autonomous Life Graph & Loop Extraction System
 
 [![Competition](https://img.shields.io/badge/Challenge-Xpert%20Winter%20Internship%202026-orange.svg)](https://goals.xpert.chat/w/intern#build)
-[![Status](https://img.shields.io/badge/Status-Submission%20Ready-brightgreen.svg)]()
 [![Model](https://img.shields.io/badge/Model-openai%2Fgpt--4o--mini-blue.svg)](https://openrouter.ai/openai/gpt-4o-mini)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)]()
 [![License](https://img.shields.io/badge/License-Proprietary-red.svg)]()
@@ -169,6 +168,5 @@ When run by the contest evaluation harness, the pipeline reads standard OpenAI-c
 
 ## Author & Submission Details
 * **Applicant:** Divyanshu Jaiswal
-* **Project:** Cold Start Challenge — Xpert Winter Internship 2026
 * **Repository:** [https://github.com/DivyanshuJaiswal411/cold-start](https://github.com/DivyanshuJaiswal411/cold-start)
 * **Designated Evaluation Model:** `openai/gpt-4o-mini`
